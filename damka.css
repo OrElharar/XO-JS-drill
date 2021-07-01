@@ -1,0 +1,73 @@
+.board-container
+{
+    margin: 0 auto;
+    height: 64vh;
+    width: 64vh;
+    outline: 5px solid burlywood;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+}
+.game-piece
+{
+ 
+    width: 100%;
+    height: 100%;
+}
+.black
+{
+    background-color: black;
+  
+}
+.white
+{
+    background-color: white;
+  
+}
+.red
+{
+    background-color: brown;
+}
+.blue
+{
+    background-color: blue;
+}
+.soldier
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.empty-square
+{
+
+    width: 100%;
+    height: 100%;
+}
+
+.row-container, .column-container
+{
+    display: none;
+ 
+}
+.instructions-container
+{
+    width: 100%;
+    height: 25vh;
+    margin: 0 auto;
+    display: inline-block;
+}
+.input-hidden-container
+{
+    display: block;
+}
+.instructions
+{
+    display: block;
+}
+.player-color
+{
+    display: block;
+}
